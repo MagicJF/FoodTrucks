@@ -61,6 +61,21 @@ def test_es():
         resp["msg"] = "Unable to reach ES"
     return jsonify(resp)
 
+
+@app.route('/hello')
+def hello():
+  return "hello world!"
+
+@app.route('/asura')
+def asura():
+  return "ASURA STRIKE!!!!!"
+
+@app.route('/hi')
+def hi():
+  return "hi world"
+
+
+
 @app.route('/search')
 def search():
     key = request.args.get('q')
