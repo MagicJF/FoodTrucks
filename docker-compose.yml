@@ -9,6 +9,26 @@ services:
       - 9200:9200
     volumes:
       - esdata1:/usr/share/elasticsearch/data
+  mongo:
+    image: sha256:c8b57c4bf7e3a88daf948d5d17bc7145db05771e928b3b3095ca4590719b5469
+    container_name: mongo
+    environment:
+      - discovery.type=single-node
+    ports:
+      - 27017:27017
+
+  scrapyfargate:
+    image: sha256:c0aaa0f9c7b27a4bcd66b2abfc11e8eb58bbd417eab3054397422616c5dccf90
+    container_name: scrapyfargate
+    environment:
+      - discovery.type=single-node
+    command:
+      [
+        'python3',
+        './launcher.py',
+        "{ 'spider_name': 'header_spider', 'spider_kwargs': { 'start_urls': ['https://pornhub.com'] }}",
+      ]
+
   web:
     build: .
     command: python3 app.py
