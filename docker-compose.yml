@@ -17,9 +17,32 @@ services:
     ports:
       - 27017:27017
 
-  scrapy:
-    image: magicjf/scraper
-    container_name: scrapy
+  # wallabot:
+  #   build: ./wallabot
+  #   # image: magicjf/walla5:latest
+  #   container_name: wallabot
+  #   environment:
+  #     - DEBUG=True
+  #   depends_on:
+  #     - mongo
+
+  # scrapy:
+  #   image: magicjf/scraper
+  #   container_name: scrapy
+  #   environment:
+  #     - discovery.type=single-node
+  #   command:
+  #     [
+  #       'python3',
+  #       './launcher.py',
+  #       "{ 'spider_name': 'header_spider', 'spider_kwargs': { 'start_urls': ['https://lavanguardia.com'] }}",
+  #     ]
+  #   depends_on:
+  #     - mongo
+
+  fargatescraper:
+    build: ./FargateScraper
+    container_name: fargate
     environment:
       - discovery.type=single-node
     command:
@@ -28,14 +51,6 @@ services:
         './launcher.py',
         "{ 'spider_name': 'header_spider', 'spider_kwargs': { 'start_urls': ['https://lavanguardia.com'] }}",
       ]
-    depends_on:
-      - mongo
-
-  wallabot:
-    image: magicjf/wallabot
-    container_name: wallabot
-    environment:
-      - discovery.type=single-node
     depends_on:
       - mongo
 

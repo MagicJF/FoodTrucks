@@ -1,0 +1,143 @@
+{
+  "object": "page",
+  "id": "95f57a8d-c9aa-487d-8c85-689c3cc4fffc",
+  "created_time": "2022-06-01T16:24:00.000Z",
+  "last_edited_time": "2022-06-01T16:41:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "d23645fa-9e4d-4ff7-ae5d-41836efbab13"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "54e1ecb3-1873-47aa-8f8e-33642c117c24"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "b398530f-7e31-4a8d-913d-3d4a2fc4efe6"
+  },
+  "archived": false,
+  "properties": {
+    "images": { "id": "%3BQ_j", "type": "number", "number": 10 },
+    "SRedFlag": {
+      "id": "I_%5Eu",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": { "content": "OK", "link": null },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "OK",
+          "href": null
+        }
+      ]
+    },
+    "title.": {
+      "id": "Jd%3Fe",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": { "content": "Intel Nuc i5 de 3th", "link": null },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Intel Nuc i5 de 3th",
+          "href": null
+        }
+      ]
+    },
+    "Skind": {
+      "id": "J%7BpE",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": { "content": "normal", "link": null },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "normal",
+          "href": null
+        }
+      ]
+    },
+    "Ssales": { "id": "M%40Vc", "type": "number", "number": 136 },
+    "Srating": { "id": "QDrs", "type": "number", "number": 97 },
+    "description": {
+      "id": "%60KF%5B",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Modelo Desktop Board 53427RKE.\nDesnudo (sin caja).\nProcesador i5 3427U (1'80/2'30 GHz).\nDisco m2sata de 64 GB crucial.\n4 GB RAM DDR3 crucial.\nCon cable alimentación, cargador y cable HDMI.\n\nWindows 10 Pro con todas sus actualizaciones al día.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Modelo Desktop Board 53427RKE.\nDesnudo (sin caja).\nProcesador i5 3427U (1'80/2'30 GHz).\nDisco m2sata de 64 GB crucial.\n4 GB RAM DDR3 crucial.\nCon cable alimentación, cargador y cable HDMI.\n\nWindows 10 Pro con todas sus actualizaciones al día.",
+          "href": null
+        }
+      ]
+    },
+    "link": {
+      "id": "uWyZ",
+      "type": "url",
+      "url": "https://es.wallapop.com/item/intel-nuc-i5-de-3th-763296329"
+    },
+    "SreportedTimes": { "id": "w%5BZz", "type": "number", "number": 0 },
+    "distance": { "id": "%7Buso", "type": "number", "number": 743 },
+    "modification_date": {
+      "id": "%7CGFa",
+      "type": "date",
+      "date": { "start": "2022-06-01", "end": null, "time_zone": null }
+    },
+    "price": { "id": "%7CZ%3BM", "type": "number", "number": 129.95 },
+    "url": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": { "content": "sss", "link": null },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "sss",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/sss-95f57a8dc9aa487d8c85689c3cc4fffc"
+}
