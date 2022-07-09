@@ -17,14 +17,14 @@ services:
     ports:
       - 27017:27017
 
-  # wallabot:
-  #   build: ./wallabot
-  #   # image: magicjf/walla5:latest
-  #   container_name: wallabot
-  #   environment:
-  #     - DEBUG=True
-  #   depends_on:
-  #     - mongo
+  wallabot:
+    build: ./wallabot
+    # image: magicjf/walla5:latest
+    container_name: wallabot
+    environment:
+      - DEBUG=True
+    depends_on:
+      - mongo
 
   # scrapy:
   #   image: magicjf/scraper

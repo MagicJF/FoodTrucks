@@ -46,7 +46,7 @@ def crawl(settings={}, spider_name="header_spider", spider_kwargs={}):
         feed_uri= "file:///home/joan/Documents/Github/Docker/FEED_scrapy-fargate-sls-guide/%(name)s-"+spider_key+"-%(time)s.json"
         print("Feeds in location >>  ", feed_uri)
         print("")
-        print("Is updated Crawl line 48")
+        print("Is updated Crawl line 48 annnd go on!")
         print("")
 
     if (is_in_aws() and os.getenv("USE_S3_CACHE") != "0") or os.getenv("USE_S3_CACHE"):
